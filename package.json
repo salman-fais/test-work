@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install": "npm install"
+    "build":"webpack --mode preduction"
   },
   "dependencies": {
     "@tensorflow/tfjs-node": "^3.0.0",
