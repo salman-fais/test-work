@@ -1,0 +1,19 @@
+{
+  "name": "animal-intrusion-detection",
+  "version": "1.0.0",
+  "description": "Image processing script for animal intrusion detection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node image_processing_script.js"
+  },
+  "keywords": [
+    "image processing",
+    "animal intrusion detection",
+    "ESP32"
+  ],
+  "author": "Salman",
+  "license": "ISC",
+  "dependencies": {
+    "some-dependency": "^1.0.0" // Add any dependencies needed for your script here
+  }
+}
