@@ -1,16 +1,14 @@
 {
   "name": "animal-intrusion-detection",
   "version": "1.0.0",
-  "description": "Image processing script for animal intrusion detection",
-  "main": "index.js",
+  "description": "A machine learning model to detect animal intrusion",
+  "main": "server.js",
   "scripts": {
-    "start": "node image_processing_script.js"
+    "start": "node server.js",
+    "install": "npm install"
   },
-  "keywords": [
-    "image processing",
-    "animal intrusion detection",
-    "ESP32"
-  ],
-  "author": "Salman",
-  "license": "ISC"
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.0.0",
+    "express": "^4.17.1"
+  }
 }
